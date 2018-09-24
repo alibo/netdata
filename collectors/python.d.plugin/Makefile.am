@@ -25,6 +25,66 @@ dist_python_SCRIPTS = \
     $(NULL)
 
 dist_python_DATA = \
+    README.md \
+    apache.chart.py \
+    beanstalk.chart.py \
+    bind_rndc.chart.py \
+    boinc.chart.py \
+    ceph.chart.py \
+    chrony.chart.py \
+    couchdb.chart.py \
+    cpufreq.chart.py \
+    cpuidle.chart.py \
+    dns_query_time.chart.py \
+    dnsdist.chart.py \
+    dovecot.chart.py \
+    elasticsearch.chart.py \
+    example.chart.py \
+    exim.chart.py \
+    fail2ban.chart.py \
+    freeradius.chart.py \
+    go_expvar.chart.py \
+    haproxy.chart.py \
+    hddtemp.chart.py \
+    httpcheck.chart.py \
+    icecast.chart.py \
+    ipfs.chart.py \
+    isc_dhcpd.chart.py \
+    litespeed.chart.py \
+    logind.chart.py \
+    mdstat.chart.py \
+    megacli.chart.py \
+    memcached.chart.py \
+    mongodb.chart.py \
+    monit.chart.py \
+    mysql.chart.py \
+    nginx.chart.py \
+    nginx_plus.chart.py \
+    nsd.chart.py \
+    ntpd.chart.py \
+    ovpn_status_log.chart.py \
+    phpfpm.chart.py \
+    portcheck.chart.py \
+    postfix.chart.py \
+    postgres.chart.py \
+    powerdns.chart.py \
+    proxysql.chart.py \
+    puppet.chart.py \
+    rabbitmq.chart.py \
+    redis.chart.py \
+    retroshare.chart.py \
+    samba.chart.py \
+    sensors.chart.py \
+    spigotmc.chart.py \
+    springboot.chart.py \
+    squid.chart.py \
+    smartd_log.chart.py \
+    tomcat.chart.py \
+    traefik.chart.py \
+    unbound.chart.py \
+    varnish.chart.py \
+    w1sensor.chart.py \
+    web_log.chart.py \
     $(NULL)
 
 userpythonconfigdir=$(configdir)/python.d
